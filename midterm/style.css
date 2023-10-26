@@ -1,0 +1,85 @@
+   body{background-color: rgb(52, 52, 52);}
+   h1,h3,p,h2{color: white;}
+   h1,h3,p,h2{font-family: Arial, Helvetica, sans-serif;}
+   
+  
+   
+
+
+   .div0{margin-inline: 50px;
+      width: 700px;}
+
+   .div1{margin-inline: 50px;
+         float: right;
+         width: 400px;
+      position: relative;
+   top: -135px;}
+
+.button-container{display: flex;}
+
+   button{background-color: rgb(17, 17, 17);
+      text-align: center;
+      padding: 10px;
+      width: 800px;
+   line-height: 40px;}
+
+   a{font-family: Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 20px;
+      text-decoration-line: none;
+      }
+      
+   footer{color:white;
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 50px;}
+
+#wrapper{
+   max-width: 1200px;
+   margin-left:auto;
+   margin-right:auto;
+   padding:16px;
+}
+
+.layout{
+   display:grid;
+   grid-template-rows: 300px 300px 300px;
+   grid-template-columns: 33.3% 33.3% 33.3%;
+   grid-column-gap: 30px;
+   grid-row-gap:250px;
+}
+
+.one{
+   background-color: black;
+   grid-column-start: 1;
+      grid-column-end: 4;}
+
+.two, .three, .four, .five, .six, .seven, .eight{
+   background-color:gray;
+}
+
+.episodebanner {
+   border: 1px solid;
+   width: 140vh;
+   height: 37vh;
+   overflow: hidden;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ img {
+   max-width: inherit;
+   max-height: inherit;
+   height: inherit;
+   width: inherit;
+   object-fit: cover;
+ }
+
+ .episode2 {
+   border: 1px solid;
+   width: 400px;
+   height: 300px;
+   overflow: hidden;
+   display: flex;
+   margin-left: auto;
+ }

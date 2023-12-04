@@ -1,0 +1,22 @@
+#wrapper{
+   
+}
+
+.item1, .item2{
+    border:solid 1px 1000;
+    padding:30px;
+    width:300px;
+    margin-bottom:30px;
+ }
+
+ .item1{
+    position:relative;
+    top:50px;
+    left:30px;
+    background-color: red;
+ }
+
+ .item2{
+    position:relative;
+
+ }
